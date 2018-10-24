@@ -1,0 +1,95 @@
+body,html{
+	height: 100%;
+	background: #0D7272;
+}
+input{
+width: 99%;
+height: 150px;
+text-align: right;
+font-size: 30px;
+color:#0D7272;
+}
+.box{
+text-align: center;
+width: 100%;
+height: 150px;
+}
+.botones{
+	height: calc(100%-150px);
+}
+.number button{
+	background: #0078D7;
+	width: 25%;
+	height: 80px;
+	color: white;
+	font-size: 25px;
+
+}
+.opera button{
+	background: #195888;
+	width: 25%;
+	height: 80px;
+	color: white;
+	font-size: 25px;
+}
+.res button{
+	background: #C15502;
+	width: 50%;
+	height: 80px;
+	color: white;
+	font-size: 25px;
+}
+.ce {
+	float: left;
+}
+.masme{
+	float:left;
+}
+.porcentaje{
+	float:left;
+}
+.divi{
+	float:left;
+}
+.siete{
+	float:left;
+}
+.ocho{
+	float:left;
+}
+.nueve{
+	float:left;
+}
+.por{
+	float:left;
+}
+.cuatro{
+	float:left;
+}
+.cinco{
+	float:left;
+}
+.seis{
+	float:left;
+}
+.mas{
+	float:left;
+}
+.uno{
+	float:left;
+}
+.dos{
+	float:left;
+}
+.tres{
+	float:left;
+}
+.punto{
+	float:left;
+}
+.cero{
+	float:left;
+}
+.igual{
+	float:left;
+}

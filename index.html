@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="calculadora.css">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+<div class ="box">
+	<div class ="resultado">
+		<input placeholder="0" id="entrada"></input>
+	</div>
+	<div class ="botones">
+		<div>
+			<div class = "opera"><button onclick="borrar()"class ="ce">CE</button></div>
+			<div class = "opera"><button onclick="concatenar('+/-')" class ="masme">+/-</button></div>
+			<div class = "opera"><button onclick="concatenar('%')"class ="porcentaje">%</button></div>
+			<div class = "opera"><button onclick="concatenar('/')"class ="divi">/</button></div>
+	    </div>
+	    <div>
+			<div class = "number"><button onclick="concatenar('7')"class ="siete">7</button></div>
+			<div class = "number"><button onclick="concatenar('8')"class ="ocho">8</button></div>
+			<div class = "number"><button onclick="concatenar('9')"class ="nueve">9</button></div>
+			<div class = "opera"><button onclick="concatenar('*')"class ="por">X</button></div>
+		</div>
+		<div>
+			<div class = "number"><button onclick="concatenar('4')"class ="cuatro">4</button></div>
+			<div class = "number"><button onclick="concatenar('5')"class ="cinco">5</button></div>
+			<div class = "number"><button onclick="concatenar('6')"class ="seis">6</button></div>
+			<div class = "opera"><button onclick="concatenar('+')"class ="mas">+</button></div>
+		</div>
+		<div>
+			<div class = "number"><button onclick="concatenar('1')"class ="uno">1</button></div>
+			<div class = "number"><button onclick="concatenar('2')"class ="dos">2</button></div>
+			<div class = "number"><button onclick="concatenar('3')"class ="tres">3</button></div>
+			<div class = "opera"><button onclick="concatenar('-')"class ="menos">-</button></div>
+		</div>
+		<div>
+			<div class = "number"><button onclick="concatenar('.')"class ="punto">.</button></div>
+			<div class = "number"><button onclick="concatenar('0')"class ="cero">0</button></div>
+			<div class = "res"><button onclick="igual()"class ="igual">=</button></div>
+		</div>
+				
+	</div>	
+</div>
+</body>
+</html>
